@@ -26,7 +26,10 @@ export default {
         fira: "Fira Code, monospace",
         jetbrains: "JetBrains Mono, monospace",
         encode: "Encode Sans Expanded, sans-serif",
-      }
+      },
+      height: {
+        btn: "50px",
+      },
     },
   },
   plugins: [],
