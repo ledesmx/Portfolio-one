@@ -30,6 +30,12 @@ export default {
       height: {
         btn: "50px",
       },
+      fontSize: {
+        "6xl": "73px",
+        "9.1xl": "116px",
+        "9xl": "115px",
+        "13xl": "144.6px",
+      },
     },
   },
   plugins: [],
