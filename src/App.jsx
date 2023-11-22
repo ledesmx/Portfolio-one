@@ -1,4 +1,5 @@
 import Header from "./components/Header"
+import About from "./components/About"
 
 function App() {
 
@@ -6,6 +7,7 @@ function App() {
     <div className="dark">
       <main className="dark:bg-dark-bg">
         <Header />
+        <About />
       </main>
     </div>
   )
