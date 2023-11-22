@@ -7,11 +7,11 @@ export default function Menu() {
     const {mobileMenuOn} = useContext(MobileMenuContext)
 
     return(
-        <div className={`fixed flex-col w-[86%] left-[7%] top-[100px] bg-dark-secondary rounded-lg p-8 font-bold z-10 lg:flex-row lg:flex lg:p-0 lg:bg-transparent lg:static ${mobileMenuOn ? `flex` : `hidden`}`}>
+        <div className={`fixed flex-col w-[86%] left-[7%] max-w-[400px] top-[100px] bg-dark-secondary rounded-lg p-8 font-bold z-10 lg:flex-row lg:flex lg:p-0 lg:w-full lg:max-w-none lg:bg-transparent lg:static ${mobileMenuOn ? `flex` : `hidden`}`}>
             <Button
                 color="txt"
                 bg="secondary"
-                className="order-2 h-btn lg:border-none lg:w-[120px]"
+                className="order-2 h-btn lg:border-none lg:w-[130px]"
             >Spanish</Button>
             <nav className="order-1 lg:order-2 lg:mx-auto">
                 <ul className="flex flex-col items-center space-y-1 lg:flex-row lg:items-center lg:space-y-0 lg:rounded-lg lg:dark:bg-dark-secondary">
