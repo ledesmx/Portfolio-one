@@ -11,6 +11,7 @@ export default {
         dark: {
           bg: "#10151d",
           txt: "#7ee0ff",
+          "txt40": "#7ee0ff40",
           primary: "#f4fbff",
           secondary: "#060708",
           neutral: "#cbcbe3",
@@ -36,6 +37,9 @@ export default {
         "9xl": "115px",
         "13xl": "144.6px",
       },
+      inset: {
+        "nav-middle": "calc(50% - 272px)"
+      }
     },
   },
   plugins: [],
