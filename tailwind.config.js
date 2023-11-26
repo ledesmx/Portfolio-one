@@ -13,16 +13,20 @@ export default {
           txt: "#7ee0ff",
           "txt40": "#7ee0ff40",
           "txt-l": "#98e6ff",
+          "txt-a": "#7fd7f2",
           primary: "#f4fbff",
           secondary: "#060708",
           neutral: "#cbcbe3",
           accent: {
             coral: "#ffb470",
             "coral-l": "#ffc38c",
+            "coral-a": "#f7b67a",
             turquoise: "#70ffff",
             "turquoise-l": "#acffff",
+            "turquoise-a": "#9af4f4",
             purple: "#a87ffb",
             "purple-l": "#c892ff",
+            "purple-a": "#ba7df8",
           }
         }
       },
