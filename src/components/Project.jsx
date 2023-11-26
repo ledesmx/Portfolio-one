@@ -46,7 +46,9 @@ export default function Project(props) {
                 <img src={props.img} alt="project img" />
                 <div>
                     <Button color={props.color}>Code</Button>
-                    <Button color={props}>Visit site</Button>
+                    <Button 
+                    color="secondary"
+                    bg={props.color}>Visit site</Button>
                 </div>
             </div>
         </div>
