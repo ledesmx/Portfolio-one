@@ -39,7 +39,10 @@ export default {
       },
       inset: {
         "nav-middle": "calc(50% - 272px)"
-      }
+      },
+      borderRadius: {
+        "5xl": "40px"
+      },
     },
   },
   plugins: [],
