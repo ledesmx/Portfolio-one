@@ -12,13 +12,17 @@ export default {
           bg: "#10151d",
           txt: "#7ee0ff",
           "txt40": "#7ee0ff40",
+          "txt-l": "#98e6ff",
           primary: "#f4fbff",
           secondary: "#060708",
           neutral: "#cbcbe3",
           accent: {
             coral: "#ffb470",
+            "coral-l": "#ffc38c",
             turquoise: "#70ffff",
+            "turquoise-l": "#acffff",
             purple: "#a87ffb",
+            "purple-l": "#c892ff",
           }
         }
       },

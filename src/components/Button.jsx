@@ -4,15 +4,15 @@ export default function Button({color, bg, className, children, ...props}) {
     const textColor = () => {
         let tcolor;
         switch(color) {
-            case "txt": tcolor = "text-dark-txt";
+            case "txt": tcolor = "text-dark-txt hover:text-dark-txt-l";
             break;
             case "secondary": tcolor = "text-dark-secondary";
             break;
-            case "coral": tcolor = "text-dark-accent-coral";
+            case "coral": tcolor = "text-dark-accent-coral hover:text-dark-accent-coral-l";
             break;
-            case "turquoise": tcolor = "text-dark-accent-turquoise";
+            case "turquoise": tcolor = "text-dark-accent-turquoise hover:text-dark-accent-turquoise-l";
             break;
-            case "purple": tcolor = "text-dark-accent-purple";
+            case "purple": tcolor = "text-dark-accent-purple hover:text-dark-accent-purple-l";
             break;
             default: tcolor = "";
         }
@@ -21,15 +21,15 @@ export default function Button({color, bg, className, children, ...props}) {
     const borderColor = () => {
         let bcolor;
         switch(color) {
-            case "txt": bcolor = "border-dark-txt";
+            case "txt": bcolor = "border-dark-txt hover:border-dark-txt-l";
             break;
             case "secondary": bcolor = "border-dark-secondary";
             break;
-            case "coral": bcolor = "border-dark-accent-coral";
+            case "coral": bcolor = "border-dark-accent-coral hover:border-dark-accent-coral-l";
             break;
-            case "turquoise": bcolor = "border-dark-accent-turquoise";
+            case "turquoise": bcolor = "border-dark-accent-turquoise hover:border-dark-accent-turquoise-l";
             break;
-            case "purple": bcolor = "border-dark-accent-purple";
+            case "purple": bcolor = "border-dark-accent-purple hover:border-dark-accent-purple-l";
             break;
             default: bcolor = "";
         }
@@ -40,11 +40,11 @@ export default function Button({color, bg, className, children, ...props}) {
         switch(bg) {
             case "secondary": bgcolor = "bg-dark-secondary";
             break;
-            case "coral": bgcolor = "bg-dark-accent-coral";
+            case "coral": bgcolor = "bg-dark-accent-coral hover:bg-dark-accent-coral-l";
             break;
-            case "turquoise": bgcolor = "bg-dark-accent-turquoise";
+            case "turquoise": bgcolor = "bg-dark-accent-turquoise hover:bg-dark-accent-turquoise-l";
             break;
-            case "purple": bgcolor = "bg-dark-accent-purple";
+            case "purple": bgcolor = "bg-dark-accent-purple hover:bg-dark-accent-purple-l";
             break;
             default: bgcolor = "";
         }
@@ -53,7 +53,7 @@ export default function Button({color, bg, className, children, ...props}) {
 
     const brakets = "before:content-['{'] before:transition-transform before:hover:translate-x-[-10px] after:content-['}'] after:transition-transform after:hover:translate-x-[10px]"
 
-    const styles = twMerge(`border-[2px] rounded-lg uppercase font-jetbrains flex items-center justify-center ${brakets}`, className)
+    const styles = twMerge(`border-[2px] rounded-lg uppercase font-jetbrains flex items-center justify-center transition-colors ${brakets}`, className)
     
     return(
         <button
