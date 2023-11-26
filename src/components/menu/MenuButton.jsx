@@ -8,7 +8,7 @@ export default function MenuButton() {
 
     return(
         <div 
-        className="fixed bg-dark-secondary w-[50px] h-btn text-4xl text-dark-txt flex items-center justify-center rounded-lg hover:cursor-pointer lg:hidden"
+        className="fixed bg-dark-secondary w-[50px] h-btn text-4xl text-dark-txt flex items-center justify-center rounded-lg z-10 hover:cursor-pointer lg:hidden"
         onClick={toggleMenu}>
             <FaBars />
         </div>
