@@ -1,0 +1,32 @@
+export const projects = [
+    {
+        id: "01",
+        title: "E-commerce product page",
+        description: "A single product page with a lightbox product gallery and cart functionality",
+        skills: ["React JS", "CSS", "BEM", "HTML"],
+        site: "https://albertoled.github.io/ecommerce-product-page/",
+        code: "https://github.com/AlbertoLed/ecommerce-product-page",
+        img: "public/project-01-preview.jpg",
+        color: "coral",
+    },
+    {
+        id: "02",
+        title: "URL shortening landing page",
+        description: "A URL shortening page usign API and local storage",
+        skills: ["React JS", "Tailwind CSS", "HTML"],
+        site: "https://albertoled.github.io/URL-shortening-API-landing-page/",
+        code: "https://github.com/AlbertoLed/URL-shortening-API-landing-page",
+        img: "public/project-02-preview.jpg",
+        color: "turquoise",
+    },
+    {
+        id: "03",
+        title: "Todo app usign Firebase",
+        description: "A classic todo app with a dark/light theme and drag and drop reordering working with firebase",
+        skills: ["React JS", "Tailwind CSS", "HTML", "Firebase"],
+        site: "https://albertoled.github.io/Todo-App/",
+        code: "https://github.com/AlbertoLed/Todo-App",
+        img: "public/project-03-preview.jpg",
+        color: "purple",
+    },
+]
