@@ -19,17 +19,15 @@ export default function Button({color, bg, className, children, ...props}) {
         return tcolor
     }
     const borderColor = () => {
-        let bcolor;
+        let bcolor = "border-[2px] ";
         switch(color) {
-            case "txt": bcolor = "border-dark-txt hover:border-dark-txt-l active:border-dark-txt-a";
+            case "txt": bcolor += "border-dark-txt hover:border-dark-txt-l active:border-dark-txt-a";
             break;
-            case "secondary": bcolor = "border-dark-secondary";
+            case "coral": bcolor += "border-dark-accent-coral hover:border-dark-accent-coral-l active:border-dark-accent-coral-a";
             break;
-            case "coral": bcolor = "border-dark-accent-coral hover:border-dark-accent-coral-l active:border-dark-accent-coral-a";
+            case "turquoise": bcolor += "border-dark-accent-turquoise hover:border-dark-accent-turquoise-l active:border-dark-accent-turquoise-a";
             break;
-            case "turquoise": bcolor = "border-dark-accent-turquoise hover:border-dark-accent-turquoise-l active:border-dark-accent-turquoise-a";
-            break;
-            case "purple": bcolor = "border-dark-accent-purple hover:border-dark-accent-purple-l active:border-dark-accent-purple-a";
+            case "purple": bcolor += "border-dark-accent-purple hover:border-dark-accent-purple-l active:border-dark-accent-purple-a";
             break;
             default: bcolor = "";
         }
@@ -53,7 +51,7 @@ export default function Button({color, bg, className, children, ...props}) {
 
     const brakets = "before:content-['{'] before:transition-transform before:hover:translate-x-[-10px] before:active:translate-x-[-7px] after:content-['}'] after:transition-transform after:hover:translate-x-[10px] after:active:translate-x-[7px]"
 
-    const styles = twMerge(`border-[2px] rounded-lg uppercase font-jetbrains flex items-center justify-center transition-colors ${brakets}`, className)
+    const styles = twMerge(`rounded-lg uppercase font-jetbrains flex items-center justify-center transition-colors ${brakets}`, className)
     
     return(
         <button
