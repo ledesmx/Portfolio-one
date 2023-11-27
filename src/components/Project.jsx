@@ -30,12 +30,12 @@ export default function Project(props) {
     }
 
     return(
-        <div className={`border-2 rounded-3xl py-[50px] px-[7%] relative ${borderColor()}`}>
+        <div className={`border-2 rounded-3xl py-[50px] px-[7%] relative lg:grid lg:grid-cols-2 ${borderColor()}`}>
             <span className="font-jetbrains text-2xl absolute left-[4%] top-[15px]">{props.id}</span>
-            <div>
-                <h3 className={`font-koulen text-5xl mb-5 ${textColor()}`}>{props.title}</h3>
+            <div className="w-[90%]">
+                <h3 className={`font-koulen text-5xl mb-5 lg:text-5.2xl ${textColor()}`}>{props.title}</h3>
                 <p className="font-encode leading-8 mb-4">{props.description}</p>
-                <ul className="flex flex-wrap justify-evenly mb-8">
+                <ul className="flex flex-wrap justify-evenly mb-8 lg:flex-col lg:mb-0">
                     {props.skills.map(item => 
                     <li
                     className="font-jetbrains flex flex-nowrap space-x-1"
@@ -43,16 +43,16 @@ export default function Project(props) {
                     ><span className={`${textColor()}`}>~ </span><span>{item}</span></li>)}
                 </ul>
             </div>
-            <div>
+            <div className="lg:flex lg:flex-col-reverse lg:justify-between">
                 <img 
-                className="rounded-xl mb-10"
+                className="rounded-xl mb-10 lg:mb-0"
                 src={props.img} alt="project img" />
-                <div>
+                <div className="md:flex md:justify-end md:space-x-5 lg:mb-12">
                     <Button
-                    className="w-full h-btn mb-4"
+                    className="w-full h-btn mb-4 lg:mb-0 lg:w-[100px]"
                     color={props.color}>Code</Button>
                     <Button 
-                    className="w-full h-btn"
+                    className="w-full h-btn lg:w-[155px]"
                     color="secondary"
                     bg={props.color}>Visit site</Button>
                 </div>

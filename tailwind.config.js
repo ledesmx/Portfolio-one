@@ -40,6 +40,7 @@ export default {
         btn: "50px",
       },
       fontSize: {
+        "5.2xl": "57px",
         "6xl": "73px",
         "9.1xl": "116px",
         "9xl": "115px",

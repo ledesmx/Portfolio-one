@@ -4,8 +4,8 @@ import { projects } from "../projects-info"
 export default function Work() {
     return(
         <div className="bg-dark-secondary rounded-5xl py-10 flex justify-center">
-            <section className="w-[86%] max-w-[1100.8px]] text-dark-neutral">
-                <h2 className="font-jetbrains uppercase text-3xl text-center mb-10">My work</h2>
+            <section className="w-[86%] max-w-[1100.8px] mx-auto text-dark-neutral">
+                <h2 className="font-jetbrains uppercase text-3xl text-center mb-10 lg:text-left">My work</h2>
                 <div className="space-y-10">
                     {projects.map(project => 
                     <Project
