@@ -11,7 +11,7 @@ export default {
         dark: {
           bg: "#10151d",
           txt: "#7ee0ff",
-          "txt40": "#7ee0ff40",
+          "txt65": "#7ee0ff65",
           "txt-l": "#98e6ff",
           "txt-a": "#7fd7f2",
           primary: "#f4fbff",
@@ -51,6 +51,9 @@ export default {
       },
       borderRadius: {
         "5xl": "40px"
+      },
+      boxShadow: {
+        "xl-wide": "0 8px 25px 0",
       },
     },
   },

@@ -14,7 +14,7 @@ export default function Menu() {
                 className="order-2 h-btn lg:border-none lg:w-[130px]"
             >Spanish</Button>
             <nav className="order-1 lg:order-2 lg:fixed lg:left-nav-middle">
-                <ul className="flex flex-col items-center space-y-1 lg:flex-row lg:items-center lg:space-y-0 lg:rounded-lg lg:dark:bg-dark-secondary lg:shadow-xl lg:shadow-dark-txt40">
+                <ul className="flex flex-col items-center space-y-1 lg:flex-row lg:items-center lg:space-y-0 lg:rounded-lg lg:dark:bg-dark-secondary lg:shadow-xl-wide lg:shadow-dark-txt65">
                     <MenuNavItem>Home</MenuNavItem>
                     <MenuNavItem>About</MenuNavItem>
                     <MenuNavItem>Work</MenuNavItem>
