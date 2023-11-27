@@ -4,11 +4,11 @@ export default function Project(props) {
     const borderColor = () => {
         let color;
         switch(props.color) {
-            case "coral": color = "border-dark-accent-coral";
+            case "coral": color = "border-light-accent-coral dark:border-dark-accent-coral";
             break;
-            case "turquoise": color = "border-dark-accent-turquoise";
+            case "turquoise": color = "border-light-accent-turquoise dark:border-dark-accent-turquoise";
             break;
-            case "purple": color = "border-dark-accent-purple";
+            case "purple": color = "border-light-accent-purple dark:border-dark-accent-purple";
             break;
             default: color = "";
         }
@@ -18,11 +18,11 @@ export default function Project(props) {
     const textColor = () => {
         let color;
         switch(props.color) {
-            case "coral": color = "text-dark-accent-coral";
+            case "coral": color = "text-light-accent-coral dark:text-dark-accent-coral";
             break;
-            case "turquoise": color = "text-dark-accent-turquoise";
+            case "turquoise": color = "text-light-accent-turquoise dark:text-dark-accent-turquoise";
             break;
-            case "purple": color = "text-dark-accent-purple";
+            case "purple": color = "text-light-accent-purple dark:text-dark-accent-purple";
             break;
             default: color = "";
         }

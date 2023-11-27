@@ -27,8 +27,29 @@ export default {
             purple: "#a87ffb",
             "purple-l": "#c892ff",
             "purple-a": "#ba7df8",
-          }
-        }
+          },
+        },
+        light: {
+          bg: "#ffeee9",
+          txt: "#6e2942",
+          "txt65": "#6e294265",
+          "txt-l": "#883f59",
+          "txt-a": "#76394f",
+          primary: "#ba4470",
+          secondary: "#fffbfa",
+          neutral: "#352e2c",
+          accent: {
+            coral: "#ea7305",
+            "coral-l": "#f8861d",
+            "coral-a": "#e77f20",
+            turquoise: "#00a0aa",
+            "turquoise-l": "#13b6c0",
+            "turquoise-a": "#1aa7b0",
+            purple: "#6d4cb0",
+            "purple-l": "#8867ca",
+            "purple-a": "#795eaf",
+          },
+        },
       },
       fontFamily: {
         koulen: "Koulen, sans-serif",
