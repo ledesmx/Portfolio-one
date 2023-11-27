@@ -1,6 +1,6 @@
 import { twMerge } from "tailwind-merge"
 
-export default function Button({color, bg, className, children, ...props}) {
+export default function Button({color, bg, className, children, link, ...props}) {
     const textColor = () => {
         let tcolor;
         switch(color) {
@@ -54,9 +54,16 @@ export default function Button({color, bg, className, children, ...props}) {
     const styles = twMerge(`rounded-lg uppercase font-jetbrains flex items-center justify-center transition-colors ${brakets}`, className)
     
     return(
+        link ?
+        <a 
+        className={`${textColor()} ${borderColor()} ${backgroundColor()} ${styles}`}
+        target="_blank"
+        href={link}>{children}</a> 
+        : (
         <button
         className={`${textColor()} ${borderColor()} ${backgroundColor()} ${styles}`}
         {...props}
-        >{children}</button>
+        >{children}</button> 
+        )
     )
 }

@@ -50,10 +50,12 @@ export default function Project(props) {
                 <div className="md:flex md:justify-end md:space-x-5 lg:mb-12">
                     <Button
                     className="w-full h-btn mb-4 lg:mb-0 lg:w-[100px]"
-                    color={props.color}>Code</Button>
+                    color={props.color}
+                    link={props.code}>Code</Button>
                     <Button 
                     className="w-full h-btn lg:w-[155px]"
                     color="secondary"
+                    link={props.site}
                     bg={props.color}>Visit site</Button>
                 </div>
             </div>
