@@ -4,7 +4,8 @@ import { IoMdMail } from "react-icons/io";
 
 export default function Contact() {
     return(
-        <section className="w-[86%] max-w-[1100.8px] mx-auto pb-12 lg:grid lg:grid-cols-4">
+        <section id="contact"
+        className="w-[86%] max-w-[1100.8px] mx-auto pb-12 pt-40 lg:grid lg:grid-cols-4">
             <h2 className="font-jetbrains uppercase text-light-txt dark:text-dark-txt text-3xl text-center lg:col-span-1 lg:text-left">Contact</h2>
             <div className="text-light-txt dark:text-dark-txt lg:col-span-3 lg:text-lg">
                 <div className="h-[2px] w-full bg-light-txt dark:bg-dark-txt my-7 lg:mt-2 lg:my-[60px]"></div>

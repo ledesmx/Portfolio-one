@@ -5,7 +5,8 @@ import MenuContext from "./menu/MenuContext"
 
 export default function Header(props) {
     return(
-        <header className="min-h-[100vh] flex flex-col items-center justify-center text-light-primary dark:text-dark-primary">
+        <header id="home"
+        className="min-h-[100vh] flex flex-col items-center justify-center text-light-primary dark:text-dark-primary">
             <div className="mb-auto mt-[20px] flex w-[86%] max-w-[1100.8px]">
                 <MenuContext>
                     <MenuButton />
