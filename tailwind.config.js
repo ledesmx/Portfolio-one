@@ -62,6 +62,7 @@ export default {
       },
       fontSize: {
         "5.2xl": "57px",
+        "5.5xl": "65px",
         "6xl": "73px",
         "9.1xl": "116px",
         "9xl": "115px",
