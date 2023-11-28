@@ -4,7 +4,7 @@ export default function About() {
     return(
         <section className="w-[86%] max-w-[1100.8px] mx-auto mb-20 grid gap-y-10 md:gap-y-5">
             <div className="grid grid-cols-1 gap-y-10 md:grid-cols-3 md:gap-x-5 lg:grid-cols-4 lg:grid-rows-1">
-                <h2 className="font-jetbrains uppercase text-3xl text-center text-light-txt dark:text-dark-txt md:col-span-3 lg:col-span-1">Who I am?</h2>
+                <h2 className="font-jetbrains uppercase text-3xl text-center text-light-txt dark:text-dark-txt md:col-span-3 lg:col-span-1 lg:text-left">Who I am?</h2>
                 <img 
                 className="w-full"
                 src={personalPhoto} 

@@ -28,7 +28,7 @@ export default function Header(props) {
                 </span>
                 
             </h1>
-            <p className="font-jetbrains text-2xl tracking-wide mt-20 mb-auto opacity-80 text-light-primary dark:text-dark-primary">Front-End Developer</p>
+            <p className="font-jetbrains text-2xl tracking-wide mt-20 mb-auto opacity-80 text-light-primary dark:text-dark-primary lg:text-4xl">Front-End Developer</p>
         </header>
     )
 }
