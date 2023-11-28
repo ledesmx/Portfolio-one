@@ -7,7 +7,7 @@ export default function Menu() {
     const {mobileMenuOn} = useContext(MobileMenuContext)
 
     return(
-        <div className={`fixed flex-col w-[86%] left-[7%] max-w-[400px] top-[100px] rounded-lg p-8 font-bold z-10 shadow-xl shadow-dark-txt40 transition-colors bg-light-secondary dark:bg-dark-secondary lg:shadow-none lg:flex-row lg:flex lg:p-0 lg:w-full lg:max-w-none lg:bg-transparent lg:dark:bg-transparent lg:static ${mobileMenuOn ? `flex` : `hidden`}`}>
+        <div className={`fixed flex-col w-[86%] left-[7%] max-w-[400px] top-[100px] rounded-lg p-8 font-bold z-10 shadow-xl-wide shadow-light-txt65 transition-colors bg-light-secondary dark:shadow-dark-txt65 dark:bg-dark-secondary lg:shadow-none lg:flex-row lg:flex lg:p-0 lg:w-full lg:max-w-none lg:bg-transparent lg:dark:bg-transparent lg:static ${mobileMenuOn ? `flex` : `hidden`}`}>
             <Button
                 color="txt"
                 bg="secondary"
