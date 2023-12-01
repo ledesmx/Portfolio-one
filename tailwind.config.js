@@ -61,12 +61,17 @@ export default {
         btn: "50px",
       },
       fontSize: {
+        "2.1xl": "20px",
+        "2.2xl": "22px",
+        "2.5xl": "24px",
         "5.2xl": "57px",
         "5.5xl": "65px",
         "6xl": "73px",
         "9.1xl": "116px",
         "9xl": "115px",
-        "13xl": "144.6px",
+        "13xl": "144px",
+        // Fix bug with this size in Google Chrome
+        // "13xl": "144px",
       },
       inset: {
         "nav-middle": "calc(50% - 272px)"
