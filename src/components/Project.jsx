@@ -30,8 +30,8 @@ export default function Project(props) {
     }
 
     return(
-        <div className={`border-2 rounded-3xl py-[50px] px-[7%] relative lg:grid lg:grid-cols-2 ${borderColor()}`}>
-            <span className="font-jetbrains text-2xl absolute left-[4%] top-[15px]">{props.id}</span>
+        <div className={`border-2 rounded-3xl py-[50px] px-[7%] relative md:px-[8%] md:py-[80px] lg:grid lg:grid-cols-2 ${borderColor()}`}>
+            <span className="font-jetbrains text-2xl absolute opacity-80 left-[4%] top-[15px] md:left-[30px] md:top-[30px] lg:text-3xl">{props.id}</span>
             <div className="w-[90%]">
                 <h3 className={`font-koulen text-5xl mb-5 lg:text-5.2xl ${textColor()}`}>{props.title}</h3>
                 <p className="font-encode leading-8 mb-4">{props.description}</p>
