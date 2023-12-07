@@ -6,9 +6,9 @@ export default function Contact() {
     return(
         <section id="contact"
         className="w-[86%] max-w-[1100.8px] mx-auto pb-12 pt-20 lg:pt-40 lg:grid lg:grid-cols-4">
-            <h2 className="font-jetbrains uppercase text-light-txt dark:text-dark-txt text-3xl text-center lg:col-span-1 lg:text-left">Contact</h2>
+            <h2 className="font-jetbrains uppercase text-light-txt dark:text-dark-txt text-3xl text-center mb-[50px] lg:mb-[0] lg:col-span-1 lg:text-left">Contact</h2>
             <div className="text-light-txt dark:text-dark-txt lg:col-span-3 lg:text-lg">
-                <div className="h-[2px] w-full bg-light-txt dark:bg-dark-txt my-7 lg:mt-2 lg:my-[60px]"></div>
+                <div className="h-[2px] w-full bg-light-txt dark:bg-dark-txt my-7 mt-0 lg:mt-2 lg:my-[60px]"></div>
                 <h3 className="font-koulen text-4xl lg:text-5xl lg:mx-[80px]">I’m always up for a chat.</h3>
                 <p className="font-encode mt-6 leading-7 lg:mx-[80px]">Please reach out if you have any questions! I'm happy to jump on a video call. Send me an email at alberto.ledesma.dev@gmail.com</p>
                 <div className="h-[2px] w-full bg-light-txt dark:bg-dark-txt my-7 lg:my-[60px]"></div>
