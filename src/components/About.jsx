@@ -2,6 +2,8 @@ import personalPhoto from "../../public/personal-photo.png"
 import { motion } from "framer-motion"
 
 export default function About() {
+    const smScreen = window.matchMedia("(max-width: 768px)").matches
+
     return(
         <section id="about"
         className="w-[86%] max-w-[1100.8px] mx-auto grid gap-y-10 py-20 md:gap-y-5 lg:py-40">
@@ -19,7 +21,7 @@ export default function About() {
                 initial={{ opacity: 0, transform: "scale(.9)" }}
                 whileInView={{ opacity: 1, transform: "scale(1)" }}
                 viewport={{ once: true }}
-                transition={{ duration: .5, delay: .5 }}
+                transition={{ duration: .5, delay: smScreen ? 0 : .5 }}
                 >
                     <p className="text-light-txt dark:text-dark-txt font-encode text-2.1xl xl:text-2.5xl">I’m from Chihuahua, México. I have a passion for building interactive and user-friendly websites that not only look great but also provide a seamless user experience.</p>
                 </motion.div>
@@ -29,7 +31,7 @@ export default function About() {
                     initial={{ opacity: 0, transform: "scale(.9)" }}
                     whileInView={{ opacity: 1, transform: "scale(1)" }}
                     viewport={{ once: true }}
-                    transition={{ duration: .5, delay: .2 }}
+                    transition={{ duration: .5, delay: smScreen ? 0 : .2 }}
                 >
                     <p className="text-light-txt dark:text-dark-txt font-encode text-xl xl:text-2.2xl">My background is in <span className="text-light-primary dark:text-dark-primary font-semibold">Computer System Engineering</span>, and a have a <span className="text-light-primary dark:text-dark-primary font-semibold">Responsive Web Design</span> certification in freeCodeCamp.</p>
                     <a 
@@ -41,7 +43,7 @@ export default function About() {
                     initial={{ opacity: 0, transform: "scale(.9)" }}
                     whileInView={{ opacity: 1, transform: "scale(1)" }}
                     viewport={{ once: true }}
-                    transition={{ duration: .5, delay: .7 }}
+                    transition={{ duration: .5, delay: smScreen ? 0 : .7 }}
                 >
                     <p className="text-light-txt dark:text-dark-txt font-encode text-xl xl:text-2.2xl">My specialties include <span className="text-light-primary dark:text-dark-primary font-semibold">React JS</span> and <span className="text-light-primary dark:text-dark-primary font-semibold">Tailwind CSS</span>.</p>
                 </motion.div>
