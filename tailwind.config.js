@@ -125,10 +125,6 @@ export default {
           "0%": { fontSize: "0" },
           "100%": { fontSize: "inherit" },
         },
-        visible: {
-          "0%": { opacity: "0" },
-          "100%": { opacity: "1" },
-        },
       },
     },
   },
