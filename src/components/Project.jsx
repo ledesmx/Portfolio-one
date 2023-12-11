@@ -1,3 +1,5 @@
+import { motion } from "framer-motion";
+// import tw from "twin.macro";
 import Button from "./Button"
 
 export default function Project(props) {
@@ -30,7 +32,15 @@ export default function Project(props) {
     }
 
     return(
-        <div className={`border-2 rounded-3xl py-[50px] px-[7%] relative md:px-[8%] md:py-[80px] lg:grid lg:grid-cols-2 ${borderColor()}`}>
+        <motion.div className={`border-2 rounded-3xl py-[50px] px-[7%] relative md:px-[8%] md:py-[80px] lg:grid lg:grid-cols-2 ${borderColor()}`}
+            initial={{ translateY: 100 }}
+            whileInView={{ 
+                filter: ["saturate(0)", "saturate(0)", "saturate(0)", "saturate(1)"], 
+                translateY: 0,
+            }}
+            viewport={{ once: true }}
+            transition={{ duration: .8 }}
+        >
             <span className="font-jetbrains text-2xl absolute opacity-80 left-[4%] top-[15px] md:left-[30px] md:top-[30px] lg:text-3xl">{props.id}</span>
             <div className="w-[90%]">
                 <h3 className={`font-koulen text-5xl mb-5 lg:text-5.2xl ${textColor()}`}>{props.title}</h3>
@@ -59,6 +69,6 @@ export default function Project(props) {
                     bg={props.color}>Visit site</Button>
                 </div>
             </div>
-        </div>
+        </motion.div>
     )
 }
