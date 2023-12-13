@@ -32,10 +32,11 @@ export default function Project(props) {
     }
 
     return(
-        <motion.div className={`border-2 rounded-3xl py-[50px] px-[7%] relative md:px-[8%] md:py-[80px] lg:grid lg:grid-cols-2 ${borderColor()}`}
-            initial={{ translateY: 100 }}
+        <motion.div className={`border-2 rounded-3xl py-[50px] px-[7%] relative bg-light-secondary dark:bg-dark-secondary md:px-[8%] md:py-[80px] lg:grid lg:grid-cols-2 ${borderColor()}`}
+            initial={{ translateY: 100, opacity: 0, filter: "saturate(0)" }}
             whileInView={{ 
                 filter: ["saturate(0)", "saturate(0)", "saturate(0)", "saturate(1)"], 
+                opacity: [0, 0, 1, 1],
                 translateY: 0,
             }}
             viewport={{ once: true }}

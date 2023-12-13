@@ -2,10 +2,18 @@ import Project from "./Project"
 import { projects } from "../projects-info"
 
 export default function Work() {
+    const getBgCircles = (n) => {
+        let circles = []
+        for(let i = 0; i < n; i++) {
+            circles.push(<div className="bg-gradient-to-b from-light-neutral dark:from-dark-neutral shadow-light-neutral dark:shadow-dark-neutral opacity-30 w-[4px] h-[16px] rounded-full"></div>)
+        }
+        return circles
+    }
+
     return(
         <div id="work"
-        className="bg-light-secondary dark:bg-dark-secondary rounded-5xl py-20 flex justify-center lg:py-40">
-            <section className="w-[86%] max-w-[1100.8px] mx-auto text-light-neutral dark:text-dark-neutral">
+        className="bg-light-secondary dark:bg-dark-secondary rounded-5xl py-20 flex justify-center relative lg:py-40">
+            <section className="z-10 w-[86%] max-w-[1100.8px] mx-auto text-light-neutral dark:text-dark-neutral">
                 <h2 className="font-jetbrains uppercase text-3xl text-center mb-[50px] lg:mb-[90px] lg:text-left">My work</h2>
                 <div className="space-y-[40px] lg:space-y-[80px]">
                     {projects.map(project => 
@@ -28,8 +36,13 @@ export default function Work() {
                     </>
                     )}
                 </div>
-                
             </section>
+            <div className="absolute w-full h-full top-0 rounded-5xl overflow-hidden z-0">
+                <div className="grid place-items-start justify-items-center  gap-y-[80px] animate-up-infinity-sm max-w-[1600px] mx-auto grid-cols-6 md:grid-cols-8 lg:gap-y-[140px] lg:animate-up-infinity-lg xl:grid-cols-10">
+                    {getBgCircles(250)}
+                </div>
+                
+            </div>
         </div>
     )
 }

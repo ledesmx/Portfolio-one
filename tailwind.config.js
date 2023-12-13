@@ -115,6 +115,9 @@ export default {
         "type-160": "type .01s 2.14s both",
         "type-170": "type .01s 2.18s both",
         "type-180": "type .01s 2.22s both",
+        // circle animation
+        "up-infinity-sm": "moveUp-sm 12s linear infinite",
+        "up-infinity-lg": "moveUp-lg 12s linear infinite",
       },
       keyframes: {
         growUp: {
@@ -124,6 +127,13 @@ export default {
         type: {
           "0%": { fontSize: "0" },
           "100%": { fontSize: "inherit" },
+        },
+        "moveUp-sm": {
+          "0%": { transform: "translateY(0)" },
+          "100%": { transform: "translateY(-96px)" }
+        },"moveUp-lg": {
+          "0%": { transform: "translateY(0)" },
+          "100%": { transform: "translateY(-156px)" }
         },
       },
     },
