@@ -15,7 +15,7 @@ export default function Header(props) {
                 <Button
                 color="txt"
                 className="w-[120px] h-[50px] ml-auto"
-                onClick={props.toggleDarkTheme}
+                onClick={props.toggleTheme}
                 >Theme</Button>
             </div>
                 <h1 className="text-center font-koulen text-6xl sm:text-9.1xl lg:text-9xl lg:text-left xl:text-13xl">
