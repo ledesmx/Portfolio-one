@@ -118,6 +118,10 @@ export default {
         // circle animation
         "up-infinity-sm": "moveUp-sm 12s linear infinite",
         "up-infinity-lg": "moveUp-lg 12s linear infinite",
+        // icons animation
+        "wave-1": "wave 10s ease-in-out infinite",
+        "wave-2": "wave 10s .2s ease-in-out infinite",
+        "wave-3": "wave 10s .4s ease-in-out infinite",
       },
       keyframes: {
         growUp: {
@@ -131,9 +135,16 @@ export default {
         "moveUp-sm": {
           "0%": { transform: "translateY(0)" },
           "100%": { transform: "translateY(-96px)" }
-        },"moveUp-lg": {
+        },
+        "moveUp-lg": {
           "0%": { transform: "translateY(0)" },
           "100%": { transform: "translateY(-156px)" }
+        },
+        wave: {
+          "0%": { transform: "translateY(0)" },
+          "5%": { transform: "translateY(-15px)" },
+          "15%": { transform: "translateY(15px)" },
+          "20%": { transform: "translateY(0)" },
         },
       },
     },

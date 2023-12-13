@@ -69,17 +69,17 @@ export default function Contact() {
                 <p className="font-koulen text-5xl text-center max-w-[280px] sm:max-w-none lg:text-5.5xl">Let’s get in touch <span className="font-fira">{"=>"}</span></p>
                 <div className="flex space-x-8 text-4xl lg:text-5xl">
                     <a
-                    className="hover:opacity-75 transition-opacity" 
+                    className="hover:opacity-75 transition-opacity animate-wave-1" 
                     href="https://github.com/AlbertoLed"
                     target="_blank"
                     ><FaGithub /></a>
                     <a
-                    className="hover:opacity-75 transition-opacity" 
+                    className="hover:opacity-75 transition-opacity animate-wave-2" 
                     href="https://www.frontendmentor.io/profile/AlbertoLed"
                     target="_blank"
                     ><SiFrontendmentor /></a>
                     <a
-                    className="hover:opacity-75 transition-opacity" 
+                    className="hover:opacity-75 transition-opacity animate-wave-3" 
                     href="mailto:alberto.ledesma.dev@gmail.com"
                     ><IoMdMail /></a>
                 </div>
