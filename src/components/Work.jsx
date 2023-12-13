@@ -38,8 +38,8 @@ export default function Work() {
                 </div>
             </section>
             <div className="absolute w-full h-full top-0 rounded-5xl overflow-hidden z-0">
-                <div className="grid place-items-start justify-items-center  gap-y-[80px] animate-up-infinity-sm max-w-[1600px] mx-auto grid-cols-6 md:grid-cols-8 lg:gap-y-[140px] lg:animate-up-infinity-lg xl:grid-cols-10">
-                    {getBgCircles(250)}
+                <div className="grid place-items-start justify-items-center  gap-y-[80px] animate-up-infinity-sm max-w-[1600px] mx-auto grid-cols-6 md:grid-cols-8 md:gap-y-[140px] md:animate-up-infinity-lg xl:grid-cols-10">
+                    {getBgCircles(190)}
                 </div>
                 
             </div>

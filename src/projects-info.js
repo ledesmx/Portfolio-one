@@ -6,7 +6,7 @@ export const projects = [
         skills: ["React JS", "CSS", "BEM", "HTML"],
         site: "https://albertoled.github.io/ecommerce-product-page/",
         code: "https://github.com/AlbertoLed/ecommerce-product-page",
-        img: "public/project-01-preview.jpg",
+        img: "./project-01-preview.jpg",
         color: "coral",
     },
     {
@@ -16,7 +16,7 @@ export const projects = [
         skills: ["React JS", "Tailwind CSS", "HTML"],
         site: "https://albertoled.github.io/URL-shortening-API-landing-page/",
         code: "https://github.com/AlbertoLed/URL-shortening-API-landing-page",
-        img: "public/project-02-preview.jpg",
+        img: "./project-02-preview.jpg",
         color: "turquoise",
     },
     {
@@ -26,7 +26,7 @@ export const projects = [
         skills: ["React JS", "Tailwind CSS", "HTML", "Firebase"],
         site: "https://albertoled.github.io/Todo-App/",
         code: "https://github.com/AlbertoLed/Todo-App",
-        img: "public/project-03-preview.jpg",
+        img: "./project-03-preview.jpg",
         color: "purple",
     },
 ]
