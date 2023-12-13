@@ -11,7 +11,7 @@ export default function Menu() {
             <Button
                 color="txt"
                 bg="secondary"
-                className="order-2 h-btn lg:border-none lg:w-[130px]"
+                className="hidden order-2 h-btn lg:border-none lg:w-[130px]"
             >Spanish</Button>
             <nav className="order-1 lg:order-2 lg:fixed lg:left-nav-middle">
                 <ul className="flex flex-col items-center space-y-1 transition-colors lg:flex-row lg:items-center lg:space-y-0 lg:rounded-lg lg:bg-light-secondary lg:dark:bg-dark-secondary lg:shadow-xl-wide  lg:shadow-light-txt65 lg:dark:shadow-dark-txt65">
@@ -21,7 +21,7 @@ export default function Menu() {
                     <MenuNavItem href="#contact">Contact</MenuNavItem>
                 </ul>
             </nav>
-            <div className="h-[1px] my-6 w-full order-1 opacity-50 bg-light-primary dark:bg-dark-primary lg:hidden"></div>
+            <div className="hidden h-[1px] my-6 w-full order-1 opacity-50 bg-light-primary dark:bg-dark-primary lg:hidden"></div>
         </div>
     )
 }
