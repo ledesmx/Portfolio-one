@@ -33,7 +33,7 @@ export default function About() {
                     viewport={{ once: true }}
                     transition={{ duration: .5, delay: smScreen ? 0 : .2 }}
                 >
-                    <p className="text-light-txt dark:text-dark-txt font-encode text-xl xl:text-2.2xl">My background is in <span className="text-light-primary dark:text-dark-primary font-semibold">Computer System Engineering</span>, and a have a <span className="text-light-primary dark:text-dark-primary font-semibold">Responsive Web Design</span> certification in freeCodeCamp.</p>
+                    <p className="text-light-txt dark:text-dark-txt font-encode text-xl xl:text-2.2xl">My background is in <span className="text-light-primary dark:text-dark-primary font-semibold">Computer System Engineering</span>, and a have a <span className="text-light-primary dark:text-dark-primary font-semibold">Responsive Web Design Certification</span> at freeCodeCamp.</p>
                     <a 
                     className="text-light-txt dark:text-dark-txt uppercase font-jetbrains font-bold self-end mt-4 mr-5 hover:text-light-txt-l dark:hover:text-dark-txt-l relative before:content-['{'] before:absolute before:left-[-10px] before:transition-transform before:hover:translate-x-[-10px] after:content-['}'] after:absolute after:right-[-10px] after:transition-transform after:hover:translate-x-[10px]"
                     href="https://www.freecodecamp.org/certification/fccfb0b985d-e8ba-4e85-a1e8-848f7c9a4368/responsive-web-design"
