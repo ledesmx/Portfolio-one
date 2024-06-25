@@ -70,7 +70,7 @@ export default function Contact() {
                 <div className="flex space-x-8 text-4xl lg:text-5xl">
                     <a
                     className="hover:opacity-75 transition-opacity animate-wave-1" 
-                    href="https://github.com/AlbertoLed"
+                    href="https://github.com/ledesmx"
                     target="_blank"
                     ><FaGithub /></a>
                     <a
