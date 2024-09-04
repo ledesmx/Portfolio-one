@@ -115,6 +115,7 @@ export default {
         "type-160": "type .01s 2.14s both",
         "type-170": "type .01s 2.18s both",
         "type-180": "type .01s 2.22s both",
+        "type-190": "type .01s 2.26s both",
         // circle animation
         "up-infinity-sm": "moveUp-sm 12s linear infinite",
         "up-infinity-lg": "moveUp-lg 12s linear infinite",
