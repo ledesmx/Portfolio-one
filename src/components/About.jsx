@@ -23,7 +23,7 @@ export default function About() {
                 viewport={{ once: true }}
                 transition={{ duration: .5, delay: smScreen ? 0 : .5 }}
                 >
-                    <p className="text-light-txt dark:text-dark-txt font-encode text-2.1xl xl:text-2.5xl">I’m from Chihuahua, México. I have a passion for building interactive and user-friendly websites that not only look great but also provide a seamless user experience.</p>
+                    <p className="text-light-txt dark:text-dark-txt font-encode text-2.1xl xl:text-2.5xl">I’m from México. I have a passion for building interactive and user-friendly websites that not only look great but also provide a seamless user experience.</p>
                 </motion.div>
             </div>
             <div className="grid grid-cols-1 gap-y-10 md:grid-cols-3 md:gap-x-5 lg:grid-cols-12">
