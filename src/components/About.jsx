@@ -45,7 +45,7 @@ export default function About() {
                     viewport={{ once: true }}
                     transition={{ duration: .5, delay: smScreen ? 0 : .7 }}
                 >
-                    <p className="text-light-txt dark:text-dark-txt font-encode text-xl xl:text-2.2xl">My specialties include <span className="text-light-primary dark:text-dark-primary font-semibold">React JS</span> and <span className="text-light-primary dark:text-dark-primary font-semibold">Tailwind CSS</span>.</p>
+                    <p className="text-light-txt dark:text-dark-txt font-encode text-xl xl:text-2.2xl">My specialties include <span className="text-light-primary dark:text-dark-primary font-semibold">Spring Boot</span>, <span className="text-light-primary dark:text-dark-primary font-semibold">React JS</span>, and <span className="text-light-primary dark:text-dark-primary font-semibold">Tailwind CSS</span>.</p>
                 </motion.div>
             </div>
         </section>
